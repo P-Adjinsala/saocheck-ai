@@ -1,0 +1,9 @@
+datasets
+transformers
+accelerate
+scikit-learn
+openpyxl
+torch
+pandas
+numpy
+matplotlib

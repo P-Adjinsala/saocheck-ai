@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ML / model artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoint-*/
+saocheck_camembert*/
+runs/
+wandb/
+logs/
+
+# Data (raw/downloaded datasets should not be committed)
+data/raw/
+*.csv
+!requirements.csv
+
+# Cache
+.cache/
+.huggingface/
+~/.cache/huggingface/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
